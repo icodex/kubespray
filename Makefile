@@ -12,7 +12,7 @@ IMAGES_LIST_DIR            ?= ./build/kubespray-images
 FILES_LIST_DIR             ?= ./build/kubespray-files
 BASE_IMAGE_VERSION         ?= latest
 KUBESPRAY_BASE_IMAGE       ?= $(IMAGE_REPO)/kubespray-base:$(BASE_IMAGE_VERSION)
-KUBE_VERSION               ?= v1.21.3
+KUBE_VERSION               ?= v1.22.5
 
 # All targets.
 .PHONY: lint run list kube-list

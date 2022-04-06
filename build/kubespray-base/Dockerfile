@@ -1,5 +1,5 @@
 FROM python:3 as builder
-ARG KUBE_VERSION=v1.21.3
+ARG KUBE_VERSION=v1.22.5
 COPY . .
 RUN echo 'shellcheck-py==0.7.2.1' >> requirements.txt \
     && grep -E '^yamllint|^ansible-lint' tests/requirements.txt >> requirements.txt \
