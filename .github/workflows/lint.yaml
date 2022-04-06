@@ -8,7 +8,7 @@ on:
     branches: [main, master, release-*]
 
 env:
-  LINT_IMAGE: "ghcr.io/k8sli/kubespray:latest"
+  LINT_IMAGE: "ghcr.io/${{ github.repository_owner }}/kubespray:latest"
 
 jobs:
   lint:

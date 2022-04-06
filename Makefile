@@ -5,7 +5,7 @@ export SHELL := /bin/bash
 export SHELLOPTS := errexit
 
 REGISTRY                   ?= ghcr.io
-IMAGE_REPO                 ?= $(REGISTRY)/k8sli
+IMAGE_REPO                 ?= $(REGISTRY)/icodex
 IMAGE_ARCH                 ?= amd64
 ANSIBLE_ARCHITECTURE       ?= x86_64
 IMAGES_LIST_DIR            ?= ./build/kubespray-images
